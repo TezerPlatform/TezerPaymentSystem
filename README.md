@@ -10,14 +10,15 @@
 
 ___
 
-+ [Russian language](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Russian-language)
-  + [О прокте](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#О-прокте)
-  + [Выгода сторон](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Выгода-сторон)
-  + [Оплата в 3 действия](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Оплата-в-3-действия)
-  + [Подключение системы оплаты в проект. Код](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Подключение-системы-оплаты-в-проект-Код)
-  + [Безопастность](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Безопастность)
-  + [О контрактах](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#О-контрактах)
-  + [Контакты](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#Контакты)
++ [Russian language](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#russian-language)
+  + [О прокте](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#о-прокте-heavy_check_mark)
+  + [Выгода сторон](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#выгода-сторон-heavy_dollar_sign)
+  + [Оплата в 3 действия](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#оплата-в-3-действия-three)
+  + [Подключение системы оплаты в проект. Код](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#подключение-системы-оплаты-в-проект-код)
+  + [Безопастность](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#безопастность-beginner)
+  + [Важно](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#важно-warning)
+  + [О контрактах](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#о-контрактах-bank)
+  + [Контакты](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#контакты-speech_balloon)
 + [English language]()
 
 # Russian language
