@@ -11,15 +11,15 @@
 ___
 
 + [Russian language](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#russian-language)
-  + [О прокте](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#о-прокте-heavy_check_mark)
-  + [Выгода сторон](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#выгода-сторон-heavy_dollar_sign)
-  + [Оплата в 3 действия](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#оплата-в-3-действия-three)
-  + [Подключение системы оплаты в проект. Код](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#подключение-системы-оплаты-в-проект-код)
-  + [Безопастность](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#безопастность-beginner)
-  + [Важно](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#важно-warning)
-  + [О контрактах](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#о-контрактах-bank)
-  + [Контакты](https://github.com/TezerPlatform/TezerPaymentSystem/edit/main/README.md#контакты-speech_balloon)
-+ [English language]()
+  + [О прокте](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#о-прокте-heavy_check_mark)
+  + [Выгода сторон](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#выгода-сторон-heavy_dollar_sign)
+  + [Оплата в 3 действия](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#оплата-в-3-действия-three)
+  + [Подключение системы оплаты в проект. Код](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#подключение-системы-оплаты-в-проект-код)
+  + [Безопастность](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#безопастность-beginner)
+  + [Важно](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#важно-warning)
+  + [О контрактах](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#о-контрактах-bank)
+  + [Контакты](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#контакты-speech_balloon)
++ [English language](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#english-language)
 
 # Russian language
 ## О прокте :heavy_check_mark:
