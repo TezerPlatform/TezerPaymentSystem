@@ -78,7 +78,7 @@ git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
 
 Должна получиться следующая структура:
 
-![ПримерПапкиПроекта](https://i.postimg.cc/W4psbLRb/image.png "ПримерПапкиПроекта")
+![ПримерПапкиПроекта](https://i.postimg.cc/rFyf9pPk/image.png "ПримерПапкиПроекта")
 
 Где `Roxer` - папка всего вашего проекта
 
@@ -95,34 +95,48 @@ git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
   + installsettings.exe
   + settings.json
 
-#### Настройка `settings.json`
-
-Просто запустите консольное приложение `installsettings.exe` и следуйте указаниям.
-
 ### Встраивание кода в проект
 
 Создание ссылки и фиксирование времени оплаты:
 
+`amount_rox` - количество токенов, которое пользователь должен оплатить. *В моём случае это количество пользователь сам выбирает. Указывается выше 100.0 до 1,000,000.0 TZR*
+
+`use_contract` - Название контракта строчными буквами. Доступные контракты смотрите тут. По мере обновления мы оповещаем в Telegram канале и здесь происходят обновления.
+
+`information_login` - Информация, которая будет проверяться при обработке чека, если `checking_information` = True
+
+`my_address`:
+1. Перейдите по ссылке https://t.me/TezerPlatformBot
+2. Нажмите на кнопку меню слева и выберите /wallet
+3. Скопируйте адрес *(TprimeRaDreSs)* и вставьте его в переменную `my_address`
+
+`create_link_payments()` - возвращает ссылку для оплаты и время создании ссылки. *(Используется в `verify_signature`)*
+
 ```python
-from TezerPaymentSystem import createlink
+from TezerPaymentSystem.createlink import create_link_payments
 
-# Create link and fix time to TezerPlatform:
-# the create_link_payments function accepts: 
-# 1. The number of tokens to send
-# 2. information (login)
-# 3. the name of the contract
+use_contract = "tezerx"
+information_login = "DonateRox"
+checking_information = True
+my_address = "TpSACeH9ZsBEvBJSMRG3n"
 
-link_to_pay, time_create_link = createlink.create_link_payments(amount_rox, "DonateRox", "tezerx")
+link_to_pay, time_create_link = create_link_payments(amount_rox, information_login, use_contract, my_address)
 ```
 
 После этого кода, открывается поле в окне проекта для ввода код-чека (`CodeCheck`)
 
-После того как пользователь ввёл код-чек и нажал кнопку подтвердить чек, выполняем код снизу. *(У каждого контракта своя структура. Мы расматриваем встраивание контракта TezerX)*
+После того как пользователь ввёл код-чек и нажал кнопку подтвердить чек, выполняем код снизу. *(У каждого контракта своя структура. Мы расматриваем встраивание контракта **TezerX**)*
 
 ```python
 from TezerPaymentSystem.tezerx.signature_verification import verify_signature
 
-result_pay = verify_signature(chek, time_create_link, amount_rox, "DonateRox")
+result_pay = verify_signature(check_input, # Введённый чек
+                              time_create_link, 
+                              amount_rox, 
+                              information_login, 
+                              use_contract, 
+                              my_address, 
+                              checking_information)
 
 if result_pay is True:
     print("Спасибо за донат!")
