@@ -1,11 +1,13 @@
 import datetime
-from Crypto.Hash import SHA256
-from Crypto.PublicKey import RSA
-from Crypto.Signature import pkcs1_15
+import os
+import sys
+from Crypto.Hash import SHA256  # pip install pycryptodome
+from Crypto.PublicKey import RSA  # --^
+from Crypto.Signature import pkcs1_15  # --^
 
-
-with open("TezerPaymentSystem/tezerx/public.key", "rb") as k:
-    public_key = RSA.importKey(k.read())
+script_dir = os.path.dirname(sys.argv[0])
+with open(f"{script_dir}\\TezerPaymentSystem\\tezerx\\public.key", "rb") as k:
+    public_key = RSA.importKey(k.read())  # Получение public.key от контракта TezerX
 
 
 def days_to_seconds(days):
@@ -44,7 +46,7 @@ def verify_signature(check, time_button_press, amount, information_login, use_co
         delta = (time_delta - time_button_press_delta)
         difference_second = (days_to_seconds(delta.days) +
                              minutes_to_seconds(
-                                     ((delta.seconds // 60) if delta.days >= 0 else (-delta.seconds // 60)) % 60) +
+                                 ((delta.seconds // 60) if delta.days >= 0 else (-delta.seconds // 60)) % 60) +
                              hours_to_seconds((delta.seconds if delta.days >= 0 else -delta.seconds) // 3600) +
                              delta.seconds)
 
@@ -69,4 +71,3 @@ def verify_signature(check, time_button_press, amount, information_login, use_co
             return "CodeCheck is not relevant"
     except (ValueError, TypeError):
         return "The signature is not authentic"
-

@@ -65,37 +65,44 @@ ___
 
 
 ## Подключение системы оплаты в проект. Код
+**1.**
+  1. Установки через `git` в главной папке проекта, в терминале:
 
-1. Установки через `git` в главной папке проекта, в терминале:
-
-```
-git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
-```
+  ```
+  git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
+  ```
 
 
-2. Установка через `.zip`
-   
-     + Скачайте в Github этот репозиторий в `.zip` файл, переместите файл в главную папку проекта и распакуйте его. После чего `.zip` можно удалить.
-
-Должна получиться следующая структура:
-
-![ПримерПапкиПроекта](https://i.postimg.cc/rFyf9pPk/image.png "ПримерПапкиПроекта")
-
-Где `Roxer` - папка всего вашего проекта
-
-`main.py` - главный/запускающий файл вашего проекта
-
-`TezerPaymentSystem` - папка с контрактами платформы, которые Вы хотите по желанию подключить.
-
-+ TezerPaymentSystem
-  + tezerx
-    + public.key
+  2. Установка через `.zip`
     
-    + signature_verification.py
-  + createlink.py
-  + installsettings.exe
-  + settings.json
+      + Скачайте в Github этот репозиторий в `.zip` файл, переместите файл в главную папку проекта и распакуйте его. После чего `.zip` можно удалить. У Вас скачается папка с названием `TezerPaymentSystem-main.zip` - пожалуйста, переименуюте в `TezerPaymentSystem.zip` или при импорте указывайте 
+      ```python
+      from TezerPaymentSystem-main.createlink import create_link_payments
+      ```
+      ```python
+      from TezerPaymentSystem-main.createlink import create_link_payments
+      ```
 
+  Должна получиться следующая структура, *посмотрите, чтобы папка `TezerPaymentSystem` была в одной директории с папкой где используется эта система*:
+
+  ![ПримерПапкиПроекта](https://i.postimg.cc/rFyf9pPk/image.png "ПримерПапкиПроекта")
+
+  Где `Roxer` - папка всего вашего проекта
+
+  `main.py` - главный/запускающий файл вашего проекта
+
+  `TezerPaymentSystem` - папка с контрактами платформы, которые Вы хотите по желанию подключить.
+
+  + TezerPaymentSystem
+    + tezerx
+      + public.key
+      
+      + signature_verification.py
+    + createlink.py
+    + installsettings.exe
+    + settings.json
+
+**2.**
 ### Встраивание кода в проект
 
 Создание ссылки и фиксирование времени оплаты:
@@ -104,7 +111,7 @@ git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
 
 `use_contract` - Название контракта строчными буквами. Доступные контракты смотрите тут. По мере обновления мы оповещаем в Telegram канале и здесь происходят обновления.
 
-`information_login` - Информация, которая будет проверяться при обработке чека, если `checking_information` = True
+`information_login` - Информация, которая будет проверяться при обработке чека, если `checking_information` = True. **Также количество символов должно быть до или равно 18. Нельзя использовать спецефические символы и русские буквы.**
 
 `my_address`:
 1. Перейдите по ссылке https://t.me/TezerPlatformBot
@@ -123,6 +130,8 @@ my_address = "TpSACeH9ZsBEvBJSMRG3n"
 
 link_to_pay, time_create_link = create_link_payments(amount_rox, information_login, use_contract, my_address)
 ```
+
+**3.**
 
 После этого кода, открывается поле в окне проекта для ввода код-чека (`CodeCheck`)
 
