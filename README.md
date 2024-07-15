@@ -75,13 +75,7 @@ ___
 
   2. Установка через `.zip`
     
-      + Скачайте в Github этот репозиторий в `.zip` файл, переместите файл в главную папку проекта и распакуйте его. После чего `.zip` можно удалить. У Вас скачается папка с названием `TezerPaymentSystem-main.zip` - пожалуйста, переименуюте в `TezerPaymentSystem.zip` или при импорте указывайте 
-      ```python
-      from TezerPaymentSystem-main.createlink import create_link_payments
-      ```
-      ```python
-      from TezerPaymentSystem-main.createlink import create_link_payments
-      ```
+      + Скачайте в Github этот репозиторий в `.zip` файл, переместите файл в главную папку проекта и распакуйте его. После чего `.zip` можно удалить. У Вас скачается папка с названием `TezerPaymentSystem-main.zip` - пожалуйста, переименуюте в `TezerPaymentSystem.zip`
 
   Должна получиться следующая структура, *посмотрите, чтобы папка `TezerPaymentSystem` была в одной директории с папкой где используется эта система*:
 
