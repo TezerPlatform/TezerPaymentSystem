@@ -207,7 +207,7 @@ cохраняются в базе данных, которая находитс�
 ## Контакты :speech_balloon:
 
 + **Telegram Tezer:** [t.me/TezerNet](https://t.me/TezerNet)
-+ **VK CIO:** [vk.com/stepanbelopolsky](https://vk.com/stepanbelopolsky)
++ **VK CIO:** [vk.com/stepanbelopolsky](https://vk.com/majworker)
 + **Discord server:** [discord.gg/ZAe35YVzhe](https://discord.gg/ZAe35YVzhe)
 + **Website TezerPlatform:** [tezerplatform.github.io](https://tezerplatform.github.io/Tezer/)
 
