@@ -11,7 +11,7 @@
 ___
 
 + [Russian language](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#russian-language)
-  + [О прокте](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#о-прокте-heavy_check_mark)
+  + [О проекте](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#о-проекте-heavy_check_mark)
   + [Выгода сторон](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#выгода-сторон-heavy_dollar_sign)
   + [Оплата в 3 действия](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#оплата-в-3-действия-three)
   + [Подключение системы оплаты в проект. Код](https://github.com/TezerPlatform/TezerPaymentSystem?tab=readme-ov-file#подключение-системы-оплаты-в-проект-код)
@@ -21,7 +21,7 @@ ___
 
 
 # Russian language
-## О прокте :heavy_check_mark:
+## О проекте :heavy_check_mark:
 
 Наш проект представлен, на данный момент, на языке программирования Python. Работаем над тем, чтобы в будущем можно  будет использовать не только код на python, но и на других популярных языках программирования. 
 
