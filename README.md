@@ -78,7 +78,7 @@ git clone https://github.com/TezerPlatform/TezerPaymentSystem.git
 
 Должна получиться следующая структура:
 
-![ПримерПапкиПроекта](https://i.postimg.cc/rFyf9pPk/image.png "ПримерПапкиПроекта")
+![ПримерПапкиПроекта](https://i.postimg.cc/Qx8gMKzT/image.png "ПримерПапкиПроекта")
 
 Где `Roxer` - папка всего вашего проекта
 
