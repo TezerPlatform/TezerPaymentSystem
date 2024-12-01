@@ -204,7 +204,6 @@ cохраняются в базе данных, которая находитс�
 ## Контакты :speech_balloon:
 
 + **Telegram Tezer:** [t.me/TezerNet](https://t.me/TezerNet)
-+ **Telegram CEO:** [t.me/ceo_tezer](https://t.me/ceo_tezer)
 + **Telegram Moderator:** [t.me/tezermoder](https://t.me/tezermoder)
 + **Discord server:** [discord.gg/ZAe35YVzhe](https://discord.gg/ZAe35YVzhe)
 + **Website TezerPlatform:** [tezerplatform.github.io](https://tezerplatform.github.io/Tezer/)
