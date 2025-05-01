@@ -1,4 +1,4 @@
-# Tezer Platform | TezerPaymentSystem "TPS"
+# TezerPaymentSystem "TPS"
 
 ### Financial opportunities available to everyone.
 
@@ -203,9 +203,11 @@ cохраняются в базе данных, которая находитс�
 
 ## Контакты :speech_balloon:
 
+Официальным создателем является Белопольский Степан Сергеевич
+
 + **Telegram Tezer:** [t.me/TezerNet](https://t.me/TezerNet)
 + **Telegram Moderator:** [t.me/tezermoder](https://t.me/tezermoder)
 + **Discord server:** [discord.gg/ZAe35YVzhe](https://discord.gg/ZAe35YVzhe)
 + **Website TezerPlatform:** [tezerplatform.github.io](https://tezerplatform.github.io/Tezer/)
 
-*laste update 26.11.2024*
+*laste update 01.05.2025*
